@@ -9,11 +9,9 @@ This is a code repository for My webApplication for covid-19 using React (ChartJ
 
 1. Clone
 
-2. Install deps (`yarn`, `npm install`)
+2.  `npm install`
 
-3. Install and register to [ZEIT Now](https://zeit.co/now) if you haven't. This project is exclusively made for the platform.
-
-4. `now dev` to run a local dev deployment, `now` to publish.
+3. `npm start`
 
 ## License
 
