@@ -19,7 +19,9 @@ const Countries = ({ handleCountryChange }) => {
   return (
     <FormControl className={styles.formControl}>
       <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
-        <option value="">Countries</option>
+        <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Countries | اختر الدولة | ⵜⴰⵎⵓⵔⵜ</option>
         {countries.map((country, i) => <option key={i} value={country}>{country}</option>)}
       </NativeSelect>
     </FormControl>
